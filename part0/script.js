@@ -19,6 +19,7 @@ const field = 'youtube';
 // console.log(myObj[field]);
 // console.log(firstNameUppercase);
 // console.log(anotherList[0]);
+
 //expresion:
 //parámetros de una función
 const sumar = (a, b) => {
@@ -26,6 +27,7 @@ const sumar = (a, b) => {
     console.log(b);
     return a + b;
 }
+
 console.log(sumar(1, 3));
 //argunmentos de la funcion que yo le paso
 const op1 = 10;
