@@ -1,7 +1,7 @@
 import './App.css';
 import Mensaje from './Mensaje.js';
 
-const Titulo = () =>{
+const Titulo = () => {
   return <p>Hola mundo desde un componente</p>
 }
 
@@ -11,9 +11,11 @@ const App = () => {
     <div className="App">
       {titulo}
       <Titulo />
-      <Mensaje message='Estamos trabajando' />
-      <Mensaje message='en un curso' />
-      <Mensaje message='de React' />
+      <Mensaje color="blue" message='Estamos trabajando' />
+      <Mensaje color="green" message='En un curso' />
+      <Mensaje color="red" message='de React' />
+
+
 
     </div>
   );
