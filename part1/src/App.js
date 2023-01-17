@@ -14,9 +14,7 @@ const App = () => {
       <Mensaje color="blue" message='Estamos trabajando' />
       <Mensaje color="green" message='En un curso' />
       <Mensaje color="red" message='de React' />
-
-
-
+      <Mensaje color="blue" message='desde un Módulo' />
     </div>
   );
 }
